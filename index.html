@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup form</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+
+                <form  id="loginForm"action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class="bx bx-hide eye-icon"></i>
+                    </div>
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot Password</a>
+                    </div>
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                    <div class="form-link">
+                       <span>Already have an account? <a href="#" class="link signup link">Signup </a></span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class="bx bxl-facebook facebook-icon"></i>
+                    
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options google">
+                <a href="#" class="field google">
+                    <img src="images/image8-2.webp" alt="" class="google-img">
+                    
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- sign up form -->
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+
+                <form id="signupForm"action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                       
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class="bx bx-hide eye-icon"></i>
+                    </div>
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot Password</a>
+                    </div>
+                    <div class="field button-field">
+                        <button type="submit">Signup</button>
+                    </div>
+                    <div class="form-link">
+                       <span>Already have an account? <a href="#" class="link login-link">Login </a></span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class="bx bxl-facebook facebook-icon"></i>
+                    
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options google">
+                <a href="#" class="field google">
+                    <img src="images/image8-2.webp" alt="" class="google-img">
+                    
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- javascript -->
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
